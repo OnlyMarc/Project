@@ -2,14 +2,14 @@ const Discord = require("discord.js");
 const Prefix = "p!"
 
 var eightball = [
-  "Yes!",
-  "Of course!",
-  "Yeah!",
-  "Without a doubt!",
-  "Never.",
-  "Obviously... no.",
-  "No, please no.",
-  "No."
+  "Yea, duh",
+  "No, cuz ur bad",
+  "No, deal with it",
+  "Ur stupid",
+  "Stop asking me things",
+  "Obviously... yes.",
+  "Go away",
+  "Ye, idiot."
 ];
 
 var bot = new Discord.Client();
