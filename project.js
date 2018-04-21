@@ -11,7 +11,7 @@ var eightball = [
   "Go away",
   "Ye, idiot.",
   ":thinking: No",
-  ":thinking Ye"
+  ":thinking: Ye"
 ];
 
 var bot = new Discord.Client();
