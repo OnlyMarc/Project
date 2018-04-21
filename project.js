@@ -18,7 +18,7 @@ var bot = new Discord.Client();
 
 bot.on("ready", function() {
   console.log(`${bot.user.username} is online!`);
-  bot.user.setActivity(`p!help`);
+  bot.user.setActivity(`p!profile`);
 });
 
 bot.on("message", function(message) {
@@ -34,8 +34,8 @@ bot.on("message", function(message) {
       break;
     case "help":
       var embed = new Discord.RichEmbed()
-        .addField("Title1", "Text1", true)
-        .addField("Title2", "Text2", true)
+        .addField("Commands", "for ProjectBot", true)
+        .addField("This is you ->", "You're beautiful", true)
         .addField("Title3", "Text3", true)
         .addField("Title4", "Text4". true)
         .addField("Title5", "Text5", true)
